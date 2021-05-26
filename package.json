@@ -1,0 +1,21 @@
+{
+  "name": "pera-song-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "song.js",
+  "dependencies": {
+    "collections": "^5.1.12",
+    "sinon": "^11.0.0",
+    "time-stamp": "^2.2.0",
+    "uniq": "^1.0.1",
+    "type": "module"
+  },
+  "devDependencies": {
+    "@types/collections": "^5.1.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

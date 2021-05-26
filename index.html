@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PERA Playlist</title>
+    <link rel="stylesheet" href="style.css"> -
+    <script type="text/javascript" src="song.js"></script>
+</head>
+
+<body id="green">
+    <section id="tan">
+        <h3>PERA Song Player</h3>
+        <section id="tan">
+
+            <input type="button" onclick="filterByDate()" value="Filter by Date">
+            <input type="button" onclick="sortByTitle()" value="Sort by title">
+            <input type="button" onclick="sortByArtist()" value="Sort by Artist">
+            <input type="button" onclick="sortById()" value="Sort by ID">
+            <input type="button" onclick="sortByPrice()" value="Sort by Price">
+            <input type="button" onclick="savePlaylist()" value="Save your playlist">
+
+            <form id="form1">
+                <label for="addsong">Add New Song (enter id, title, artist, releasedate, and price seperated by
+                    commas):</label><br>
+                <input type="text" id="addsong" name="addsong"><br>
+            </form>
+
+            <input type="button" onclick="addSong()" value="Submit">
+
+            <form id="form2">
+                <label for="deletesong">Enter the ID of the song you would like to delete:</label><br>
+                <input type="text" id="deletesong" name="deletesong"><br>
+            </form>
+
+            <input type="button" onclick="deleteSong()" value="Submit">
+
+            <form id="form3">
+                <label for="dsong">Edit Song(enter id, element to change, and the new value seperated by
+                    commas):</label><br>
+                <input type="text" id="editsong" name="editsong"><br>
+            </form>
+
+            <input type="button" onclick="editSong()" value="Submit">
+        </section>
+
+        <p id="demo"> </p>
+</body>
+</html>
